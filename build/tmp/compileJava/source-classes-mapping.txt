@@ -1,5 +1,7 @@
-com/nit/anno/EnvCheck.java
- com.nit.anno.EnvCheck
+com/nit/MainApplication.java
+ com.nit.MainApplication
+com/nit/config/Swagger2Configuration.java
+ com.nit.config.Swagger2Configuration
 com/nit/test/AnotherTest.java
  com.nit.test.AnotherTest
 com/nit/handler/ExceptionHandler.java
@@ -48,6 +50,8 @@ com/nit/util/QueueUtil.java
  com.nit.util.QueueUtil
 com/nit/aspect/TraceInterceptor.java
  com.nit.aspect.TraceInterceptor
+com/nit/anno/EnvCheck.java
+ com.nit.anno.EnvCheck
 com/nit/task/config/TaskConfig.java
  com.nit.task.config.TaskConfig
 com/nit/util/RequestIdGenerator.java
@@ -60,7 +64,3 @@ com/nit/config/DruidConfig.java
  com.nit.config.DruidConfig
 com/nit/controller/MockDataController.java
  com.nit.controller.MockDataController
-com/nit/config/Swagger2Configuration.java
- com.nit.config.Swagger2Configuration
-com/nit/MainApplication.java
- com.nit.MainApplication

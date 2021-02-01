@@ -1,5 +1,6 @@
 package com.nit;
 
+import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @Configuration
+@NacosPropertySource(dataId = "precise", autoRefreshed = true)
 @EnableSwagger2
 @EnableAsync
 @PropertySource(value = {"classpath:application.yml"})

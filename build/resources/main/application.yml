@@ -6,7 +6,7 @@ spring:
     druid:
       qa:
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://10.170.159.28/nim_perfdev?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
+        url: jdbc:mysql://10.100.110.110/nim_perfdev?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
         username: perf
         password: perftest
         type: com.alibaba.druid.pool.DruidDataSource
@@ -59,6 +59,11 @@ spring:
       cluster-nodes: 127.0.0.1:9300
       repositories:
         enabled: true
+  application:
+    name: demo
+nacos:
+  config:
+    server-addr: 10.122.91.32:8848
 
 logging:
   config: classpath:config/logback.xml
